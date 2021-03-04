@@ -20,7 +20,8 @@ const webpackConfig: Configuration = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './index.html')
+      template: path.resolve(__dirname, './index.html'),
+      inject: 'body'
     }),
     new EslintPlugin()
   ],

@@ -3,17 +3,33 @@
   <head>
     <title>highlight</title>
     <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+      body {
+        position: relative;
+      }
       #content {
         width: 900px;
-        margin: 30px auto;
+        margin: 0px auto;
         font-size: 16px;
         line-height: 1.5;
+      }
+      .highlight-container .highlight-item {
+        background-color: rgba(248, 146, 125, 0.5);
+        position: absolute;
+        z-index: -1;
       }
     </style>
   </head>
   <body>
     <div id="content">
-      <h1 style="text-align: center">高亮文中所有“生<span>命</span>”</h1>
+      <div style="text-align: center; font-size: 50px; font-weight: bold">
+        高亮文中所有“生<span>命</span>”
+      </div>
       <p>
         ⼀个⼈的⼀⽣，就是⼀座有了年岁的城墙，⽤⽆数个⻘翠的⽇⽉堆砌⽽成。⽇⼦是⼀砖⼀瓦，⽣命是⼀梁⼀柱。城墙⾥，因为⽣活，因为情感，⽽充盈丰满。⼈⽣是什么？是在三⽉的早春，看⼀群燕⼦，于古⽼的庭院衔泥筑巢；是在清凉的夏季，看满池莲荷，寂寞地在⽔中⽣⻓；是在⻛起的深秋，看⼀枚落叶，安静地赶赴美丽的死亡；是在落雪的冬夜，看⼀尾⽩狐，遁迹在荒寒的⼭林。
       </p>
