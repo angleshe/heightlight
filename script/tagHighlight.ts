@@ -1,5 +1,5 @@
 // 高亮标签的class
-const HIGHLIGHT_CLASS = 'tag-highlight';
+export const HIGHLIGHT_CLASS = 'tag-highlight';
 
 /**
  * @description 创建高亮标签
@@ -24,7 +24,7 @@ function createdHightLightElement(content: string): HTMLSpanElement {
  * @param {number} start 高亮文本的起点位置
  * @param {number} length 高亮文本的长度
  */
-function insertTag(contentNode: Node, start: number, length: number): void {
+export function insertTag(contentNode: Node, start: number, length: number): void {
   // 节点内容
   const content = contentNode.textContent;
   if (content) {
