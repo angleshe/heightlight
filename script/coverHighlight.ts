@@ -129,7 +129,7 @@ function createdHighlightArea(
 }
 
 /**
- * @description 高亮文本
+ * @description 覆盖式高亮文本
  * @author angle
  * @date 2021-03-04
  * @export
